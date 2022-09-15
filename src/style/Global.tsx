@@ -18,6 +18,9 @@ const GlobalStyle = createGlobalStyle`
       height: auto;
       max-width: 100%;
     }
+    nav, nav ~ div > div{
+      background-color: rgb(14, 74, 17) !important;
+    }
   }
 `
 

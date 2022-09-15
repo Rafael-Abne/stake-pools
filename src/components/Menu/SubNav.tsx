@@ -6,6 +6,7 @@ import { useTranslation } from 'contexts/Localization'
 
 const StyledNav = styled.nav`
   margin-bottom: 40px;
+  background-color: '#fff';
 `
 
 const getActiveIndex = (pathname: string): number => {
