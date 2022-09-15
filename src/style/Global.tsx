@@ -21,7 +21,17 @@ const GlobalStyle = createGlobalStyle`
     nav, nav ~ div > div{
       background-color: rgb(14, 74, 17) !important;
     }
-  }
+
+    @media screen and (min-width: 968px){
+    .hQKWmK .desktop-icon {
+      display: block;
+      display: none;
+    }
+
+    .hQKWmK .mobile-icon{
+      display: none !important;
+    }
+  
 `
 
 export default GlobalStyle
