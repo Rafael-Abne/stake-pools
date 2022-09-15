@@ -24,11 +24,12 @@ const Menu = (props) => {
       currentLang={currentLanguage.code}
       langs={languageList}
       setLang={setLanguage}
-      cakePriceUsd={cakePriceUsd.toNumber()}
+      // cakePriceUsd={cakePriceUsd.toNumber()}
+      cakePriceUsd={0}
       links={config(t)}
       profile={{
         username: profile?.username,
-        image: profile?.nft ? `/images/nfts/${profile.nft?.images.sm}` : undefined,
+        image:  undefined,
         profileLink: '/profile',
         noProfileLink: '/profile',
         showPip: !profile?.username,
